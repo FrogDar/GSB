@@ -1,4 +1,4 @@
-CXX = g++-8
+CXX = g++
 CXXFLAGS =  -Wall -Werror -Wextra -pedantic -std=c++17 -g -fsanitize=address 
 LDFLAGS =  -fsanitize=address -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer
 LBLIBS = -lstdc++fs
